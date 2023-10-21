@@ -1,0 +1,278 @@
+{
+  "name": "Introduction to Computer Science",
+  "code": "CSC148H1",
+  "sections": [
+    {
+      "name": "TUT0301",
+      "deliveryModes": [
+        {
+          "session": "20239",
+          "mode": "INPER"
+        }
+      ],
+      "meetingTimes": [
+        {
+          "start": {
+            "day": 4,
+            "millisofday": 46800000
+          },
+          "end": {
+            "day": 4,
+            "millisofday": 54000000
+          }
+        }
+      ]
+    },
+    {
+      "name": "TUT0302",
+      "deliveryModes": [
+        {
+          "session": "20239",
+          "mode": "INPER"
+        }
+      ],
+      "meetingTimes": [
+        {
+          "start": {
+            "day": 4,
+            "millisofday": 46800000
+          },
+          "end": {
+            "day": 4,
+            "millisofday": 54000000
+          }
+        }
+      ]
+    },
+    {
+      "name": "TUT0201",
+      "deliveryModes": [
+        {
+          "session": "20239",
+          "mode": "INPER"
+        }
+      ],
+      "meetingTimes": [
+        {
+          "start": {
+            "day": 4,
+            "millisofday": 39600000
+          },
+          "end": {
+            "day": 4,
+            "millisofday": 46800000
+          }
+        }
+      ]
+    },
+    {
+      "name": "TUT0402",
+      "deliveryModes": [
+        {
+          "session": "20239",
+          "mode": "INPER"
+        }
+      ],
+      "meetingTimes": [
+        {
+          "start": {
+            "day": 4,
+            "millisofday": 54000000
+          },
+          "end": {
+            "day": 4,
+            "millisofday": 61200000
+          }
+        }
+      ]
+    },
+    {
+      "name": "TUT0101",
+      "deliveryModes": [
+        {
+          "session": "20239",
+          "mode": "INPER"
+        }
+      ],
+      "meetingTimes": [
+        {
+          "start": {
+            "day": 4,
+            "millisofday": 32400000
+          },
+          "end": {
+            "day": 4,
+            "millisofday": 39600000
+          }
+        }
+      ]
+    },
+    {
+      "name": "TUT0102",
+      "deliveryModes": [
+        {
+          "session": "20239",
+          "mode": "INPER"
+        }
+      ],
+      "meetingTimes": [
+        {
+          "start": {
+            "day": 4,
+            "millisofday": 32400000
+          },
+          "end": {
+            "day": 4,
+            "millisofday": 39600000
+          }
+        }
+      ]
+    },
+    {
+      "name": "TUT0203",
+      "deliveryModes": [
+        {
+          "session": "20239",
+          "mode": "INPER"
+        }
+      ],
+      "meetingTimes": [
+        {
+          "start": {
+            "day": 4,
+            "millisofday": 39600000
+          },
+          "end": {
+            "day": 4,
+            "millisofday": 46800000
+          }
+        }
+      ]
+    },
+    {
+      "name": "LEC0101",
+      "deliveryModes": [
+        {
+          "session": "20239",
+          "mode": "INPER"
+        }
+      ],
+      "meetingTimes": [
+        {
+          "start": {
+            "day": 1,
+            "millisofday": 36000000
+          },
+          "end": {
+            "day": 1,
+            "millisofday": 39600000
+          }
+        },
+        {
+          "start": {
+            "day": 3,
+            "millisofday": 32400000
+          },
+          "end": {
+            "day": 3,
+            "millisofday": 39600000
+          }
+        }
+      ]
+    },
+    {
+      "name": "LEC0201",
+      "deliveryModes": [
+        {
+          "session": "20239",
+          "mode": "INPER"
+        }
+      ],
+      "meetingTimes": [
+        {
+          "start": {
+            "day": 1,
+            "millisofday": 46800000
+          },
+          "end": {
+            "day": 1,
+            "millisofday": 50400000
+          }
+        },
+        {
+          "start": {
+            "day": 3,
+            "millisofday": 46800000
+          },
+          "end": {
+            "day": 3,
+            "millisofday": 54000000
+          }
+        }
+      ]
+    },
+    {
+      "name": "TUT0202",
+      "deliveryModes": [
+        {
+          "session": "20239",
+          "mode": "INPER"
+        }
+      ],
+      "meetingTimes": [
+        {
+          "start": {
+            "day": 4,
+            "millisofday": 39600000
+          },
+          "end": {
+            "day": 4,
+            "millisofday": 46800000
+          }
+        }
+      ]
+    },
+    {
+      "name": "TUT0303",
+      "deliveryModes": [
+        {
+          "session": "20239",
+          "mode": "INPER"
+        }
+      ],
+      "meetingTimes": [
+        {
+          "start": {
+            "day": 4,
+            "millisofday": 46800000
+          },
+          "end": {
+            "day": 4,
+            "millisofday": 54000000
+          }
+        }
+      ]
+    },
+    {
+      "name": "TUT0401",
+      "deliveryModes": [
+        {
+          "session": "20239",
+          "mode": "INPER"
+        }
+      ],
+      "meetingTimes": [
+        {
+          "start": {
+            "day": 4,
+            "millisofday": 54000000
+          },
+          "end": {
+            "day": 4,
+            "millisofday": 61200000
+          }
+        }
+      ]
+    }
+  ]
+}

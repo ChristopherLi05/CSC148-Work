@@ -1,0 +1,21 @@
+{
+  "name": "TUT0101",
+  "deliveryModes": [
+    {
+      "session": "20239",
+      "mode": "INPER"
+    }
+  ],
+  "meetingTimes": [
+    {
+      "start": {
+        "day": 4,
+        "millisofday": 32400000
+      },
+      "end": {
+        "day": 4,
+        "millisofday": 39600000
+      }
+    }
+  ]
+}

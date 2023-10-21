@@ -1,0 +1,6162 @@
+[
+  {
+    "name": "Topics in Comparative Politics IV",
+    "code": "POL492H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 39600000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 46800000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Indigenous Environmental Science and Practice",
+    "code": "INS250H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 54000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Enchantment, Disenchantment, Re-Enchantment",
+    "code": "RLG197H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 54000000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 61200000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Philosophy of Race",
+    "code": "PHL269H1",
+    "sections": [
+      {
+        "name": "TUT0102",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 54000000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 57600000
+            }
+          }
+        ]
+      },
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 54000000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0201",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 57600000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 61200000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 54000000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 57600000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0202",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 57600000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 61200000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Creative Writing: Poetry",
+    "code": "ENG388H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 36000000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 43200000
+            }
+          },
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 39600000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 43200000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Unpacking Digital Technology",
+    "code": "NEW113H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 57600000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Translation and Comparativity",
+    "code": "LCT402H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 50400000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 57600000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "The Material Culture of Food",
+    "code": "MCS326H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 57600000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Capital, Technology, and Utopia in the Modern Middle East",
+    "code": "NMC379H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 39600000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 46800000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Laboratory in Social Psychological Field Methods",
+    "code": "PSY349H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 5,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 5,
+              "millisofday": 57600000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Introduction to Chinese Philosophy",
+    "code": "EAS241H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 54000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "The Roman Republic",
+    "code": "CLA367H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 54000000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 61200000
+            }
+          },
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 54000000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 61200000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Machine Learning Applications in Macroeconomic Finance",
+    "code": "ECO482H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 36000000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 46800000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Molecular Pharmacology 2",
+    "code": "PHC301H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 50400000
+            }
+          },
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 36000000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 39600000
+            }
+          },
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 43200000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 46800000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 32400000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 36000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Advanced Topics: The Hispanic Caribbean",
+    "code": "JLN427H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 54000000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 61200000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Might and Right:  Power and Justice in International Relations",
+    "code": "POL109H1",
+    "sections": [
+      {
+        "name": "TUT0701",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 5,
+              "millisofday": 39600000
+            },
+            "end": {
+              "day": 5,
+              "millisofday": 43200000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0601",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 5,
+              "millisofday": 36000000
+            },
+            "end": {
+              "day": 5,
+              "millisofday": 39600000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0602",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 5,
+              "millisofday": 36000000
+            },
+            "end": {
+              "day": 5,
+              "millisofday": 39600000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0502",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 50400000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 54000000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT5101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 68400000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 72000000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0501",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 50400000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 54000000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT5104",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 68400000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 72000000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT5102",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 68400000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 72000000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT5201",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 72000000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 75600000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0401",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 50400000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0702",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 5,
+              "millisofday": 39600000
+            },
+            "end": {
+              "day": 5,
+              "millisofday": 43200000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0402",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 50400000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0102",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 36000000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 39600000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0201",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 39600000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 43200000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT5202",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 72000000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 75600000
+            }
+          }
+        ]
+      },
+      {
+        "name": "LEC5101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 61200000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 68400000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0202",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 39600000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 43200000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 36000000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 39600000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT5103",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 68400000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 72000000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0301",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 43200000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 46800000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0302",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 43200000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 46800000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "The World of Popular Music",
+    "code": "MUS211H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 54000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Marketing Research (formerly RSM452H1)",
+    "code": "RSM352H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 54000000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 61200000
+            }
+          }
+        ]
+      },
+      {
+        "name": "LEC0301",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 68400000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 75600000
+            }
+          }
+        ]
+      },
+      {
+        "name": "LEC0201",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 61200000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 68400000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sociological Inquiries",
+    "code": "SOC150H1",
+    "sections": [
+      {
+        "name": "TUT0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 36000000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 39600000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0501",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 50400000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 54000000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT1101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 36000000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 39600000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT1201",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 39600000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 43200000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0601",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 54000000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 57600000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0701",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 43200000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 46800000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT1001",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 54000000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 57600000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT1301",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 54000000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 57600000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT1401",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 57600000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 61200000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0801",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 50400000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT1102",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 36000000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 39600000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0301",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 43200000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 46800000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0901",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 50400000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 54000000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT1202",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 39600000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 43200000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT5101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 61200000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 64800000
+            }
+          }
+        ]
+      },
+      {
+        "name": "LEC0201",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 39600000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 46800000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0201",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 39600000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 43200000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0401",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 50400000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT1501",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 32400000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 36000000
+            }
+          }
+        ]
+      },
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 43200000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 50400000
+            }
+          }
+        ]
+      },
+      {
+        "name": "LEC2001",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 43200000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 50400000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT1601",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 36000000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 39600000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Introduction to French Literary Analysis",
+    "code": "FRE246H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 43200000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 46800000
+            }
+          },
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 39600000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 46800000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Introductory Pali I",
+    "code": "RLG264H1",
+    "sections": [
+      {
+        "name": "LEC0102",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "SYNC"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 57600000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 61200000
+            }
+          },
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 54000000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 61200000
+            }
+          }
+        ]
+      },
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 57600000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 61200000
+            }
+          },
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 54000000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 61200000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Introduction to Hispanic Cultural Studies",
+    "code": "SPA259H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 39600000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 46800000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Techniques in Molecular and Cell Biology",
+    "code": "CSB330H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 39600000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 46800000
+            }
+          }
+        ]
+      },
+      {
+        "name": "PRA0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 39600000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 50400000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Middle Ages by the Numbers",
+    "code": "MST341H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 36000000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 43200000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Child and Adolescent Development in Education",
+    "code": "EDS261H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 36000000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 46800000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Developmental and Substantive Editing",
+    "code": "WRR316H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 54000000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 64800000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Introduction to History and Philosophy of Science and Technology",
+    "code": "HPS100H1",
+    "sections": [
+      {
+        "name": "TUT0601",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 5,
+              "millisofday": 39600000
+            },
+            "end": {
+              "day": 5,
+              "millisofday": 43200000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0701",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 5,
+              "millisofday": 43200000
+            },
+            "end": {
+              "day": 5,
+              "millisofday": 46800000
+            }
+          }
+        ]
+      },
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 39600000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 46800000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0901",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 5,
+              "millisofday": 54000000
+            },
+            "end": {
+              "day": 5,
+              "millisofday": 57600000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT5101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 61200000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 64800000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0501",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 57600000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 61200000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0301",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 50400000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 54000000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0801",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 5,
+              "millisofday": 50400000
+            },
+            "end": {
+              "day": 5,
+              "millisofday": 54000000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 57600000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 61200000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0201",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 36000000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 39600000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0401",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 54000000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 57600000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Structure of a Specific Language",
+    "code": "LIN409H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 54000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "European Colonialism, 1700- 1965",
+    "code": "HIS245H1",
+    "sections": [
+      {
+        "name": "TUT0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 39600000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 43200000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0201",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 50400000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0301",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 50400000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 54000000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0401",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 54000000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 57600000
+            }
+          }
+        ]
+      },
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 32400000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 39600000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "The Book of Kings: Persian Myth, History, and Art",
+    "code": "NMC258H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 54000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Microbiology I: Bacteria",
+    "code": "MGY377H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 50400000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 54000000
+            }
+          },
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 50400000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 54000000
+            }
+          },
+          {
+            "start": {
+              "day": 5,
+              "millisofday": 50400000
+            },
+            "end": {
+              "day": 5,
+              "millisofday": 54000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Latin Drama I",
+    "code": "LAT351H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 54000000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 61200000
+            }
+          },
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 61200000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Philosophy for Scientists",
+    "code": "PHL233H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 43200000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 46800000
+            }
+          },
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 43200000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 46800000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0102",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 54000000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 57600000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0201",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 57600000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 61200000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 54000000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 57600000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0202",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 57600000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 61200000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT5101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 61200000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 64800000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT5102",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 61200000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 64800000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Case Studies in Health Policy",
+    "code": "HST410H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 36000000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 46800000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Advanced Studies Seminar",
+    "code": "ENG481H1",
+    "sections": [
+      {
+        "name": "LEC0401",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 54000000
+            }
+          }
+        ]
+      },
+      {
+        "name": "LEC0201",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 50400000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 57600000
+            }
+          }
+        ]
+      },
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 54000000
+            }
+          }
+        ]
+      },
+      {
+        "name": "LEC0301",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 36000000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 43200000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Why We Work: Understanding Work Through the Prism of Art & Culture",
+    "code": "IRE199H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 36000000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 43200000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Greek and Roman Epic",
+    "code": "CLA236H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 54000000
+            }
+          },
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 54000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Selected Topics in Writing and Rhetoric",
+    "code": "WRR308H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 57600000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Theories of Criminal Justice",
+    "code": "CRI300H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 36000000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 46800000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Directing I",
+    "code": "DRM202H1",
+    "sections": [
+      {
+        "name": "LEC5101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 64800000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 75600000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Martial Arts in East Asian Narratives",
+    "code": "EAS198H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 54000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mathematical Statistics II",
+    "code": "STA453H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 43200000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 46800000
+            }
+          },
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 43200000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 50400000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Statistical Methods for Machine Learning II",
+    "code": "STA414H1",
+    "sections": [
+      {
+        "name": "LEC5101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 64800000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 75600000
+            }
+          }
+        ]
+      },
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 50400000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 61200000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "The Science of Babies and Children",
+    "code": "PSY195H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 54000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Studies in Queer and Trans",
+    "code": "WGS376H1",
+    "sections": [
+      {
+        "name": "LEC5101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 64800000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 72000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Independent Research in Cell and Systems Biology I",
+    "code": "CSB497H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 5,
+              "millisofday": 50400000
+            },
+            "end": {
+              "day": 5,
+              "millisofday": 55800000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "History, Rights, and Difference in South Asia",
+    "code": "HIS470H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 54000000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 61200000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Philosophy, Film, and Social Criticism",
+    "code": "PHL196H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 54000000
+            }
+          },
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 54000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Introduction to Developmental Psychology",
+    "code": "PSY210H1",
+    "sections": [
+      {
+        "name": "LEC5101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 64800000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 75600000
+            }
+          }
+        ]
+      },
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 57600000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Early Modern Ireland",
+    "code": "CLT348H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 36000000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 43200000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Qualitative Research in Urban Studies",
+    "code": "URB342H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 36000000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 43200000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Socio-Cultural Perspective of the Canadian Jewish Community",
+    "code": "CDN380H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 39600000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 46800000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Economic Growth",
+    "code": "ECO362H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 50400000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 61200000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Psychology of Aging",
+    "code": "PSY313H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 57600000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Research in Phonology",
+    "code": "LIN429H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 39600000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 46800000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Advanced Study in Cinema as Social and Cultural Practice",
+    "code": "CIN430H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 39600000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 46800000
+            }
+          },
+          {
+            "start": {
+              "day": 5,
+              "millisofday": 39600000
+            },
+            "end": {
+              "day": 5,
+              "millisofday": 46800000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Celtic Mythology",
+    "code": "CLT250H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 36000000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 43200000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sociology of Health and Illness (formerly 242Y1)",
+    "code": "SOC243H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 54000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Information Literacy, Writing, and Research for Book & Media Studies",
+    "code": "BMS201H1",
+    "sections": [
+      {
+        "name": "TUT0301",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 50400000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 39600000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 43200000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0201",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 43200000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 46800000
+            }
+          }
+        ]
+      },
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 36000000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 43200000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Laboratory in Molecular Plant Biology",
+    "code": "CSB350H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 36000000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 43200000
+            }
+          }
+        ]
+      },
+      {
+        "name": "PRA0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 32400000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 43200000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Laser Physics",
+    "code": "PHY485H1",
+    "sections": [
+      {
+        "name": "LEC2001",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 50400000
+            }
+          },
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 50400000
+            }
+          }
+        ]
+      },
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 50400000
+            }
+          },
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 50400000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Abolition in the Global Context:  Theorizing Uprisings and Youth Activism against Policing and Prisons",
+    "code": "CSE340H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 54000000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 61200000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Introduction to Ordinary Differential Equations",
+    "code": "MAT244H1",
+    "sections": [
+      {
+        "name": "TUT0801",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 54000000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 57600000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0901",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 57600000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 61200000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0501",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 32400000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 36000000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT5101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 61200000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 64800000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0301",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 43200000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 46800000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 32400000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 36000000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0201",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 39600000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 43200000
+            }
+          }
+        ]
+      },
+      {
+        "name": "LEC0201",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 54000000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 61200000
+            }
+          },
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 57600000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 61200000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT5102",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 61200000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 64800000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0701",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 50400000
+            }
+          }
+        ]
+      },
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 39600000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 46800000
+            }
+          },
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 43200000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 46800000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0401",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 57600000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 61200000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0601",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 36000000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 39600000
+            }
+          }
+        ]
+      },
+      {
+        "name": "LEC5101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 64800000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 72000000
+            }
+          },
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 64800000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 68400000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Seminar in Learning",
+    "code": "PSY460H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 54000000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 61200000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Introduction to Physical Chemistry",
+    "code": "CHM222H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 50400000
+            }
+          },
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 50400000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0201",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 5,
+              "millisofday": 36000000
+            },
+            "end": {
+              "day": 5,
+              "millisofday": 39600000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 50400000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 54000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Introduction to Software Engineering",
+    "code": "CSC301H1",
+    "sections": [
+      {
+        "name": "LEC5101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "SYNC"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 64800000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 75600000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Twentieth-Century Quebec",
+    "code": "HIS314H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "SYNC"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 5,
+              "millisofday": 32400000
+            },
+            "end": {
+              "day": 5,
+              "millisofday": 39600000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Creative Non-Fiction",
+    "code": "CRE279H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 36000000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 43200000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Creative Cities",
+    "code": "URB336H1",
+    "sections": [
+      {
+        "name": "LEC5101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 68400000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 75600000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Global Change Ecology",
+    "code": "EEB428H1",
+    "sections": [
+      {
+        "name": "TUT0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 5,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 5,
+              "millisofday": 54000000
+            }
+          }
+        ]
+      },
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 5,
+              "millisofday": 36000000
+            },
+            "end": {
+              "day": 5,
+              "millisofday": 43200000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pathogenic Effector Biology",
+    "code": "CSB454H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 36000000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 43200000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pharmacology and Toxicology in Drug Development",
+    "code": "PCL402H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 54000000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 61200000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0201",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 50400000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 36000000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 39600000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Introduction to Graph Theory",
+    "code": "MAT332H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 54000000
+            }
+          },
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 43200000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 46800000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 57600000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 61200000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0201",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 36000000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 39600000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Introduction to Sociology",
+    "code": "SOC100H1",
+    "sections": [
+      {
+        "name": "TUT0901",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 50400000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT5401",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 64800000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 68400000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 39600000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 43200000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT1201",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 57600000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 61200000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0801",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 43200000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 46800000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT1101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 54000000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 57600000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0201",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 43200000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 46800000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0601",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 57600000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 61200000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT1001",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 50400000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 54000000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT5201",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 64800000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 68400000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT5301",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 61200000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 64800000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0401",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 50400000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 54000000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0701",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 39600000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 43200000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT5101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 61200000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 64800000
+            }
+          }
+        ]
+      },
+      {
+        "name": "LEC2501",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 64800000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 72000000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0501",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 54000000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 57600000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0301",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 50400000
+            }
+          }
+        ]
+      },
+      {
+        "name": "LEC5101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 64800000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 72000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Human Memory and Learning Laboratory",
+    "code": "PSY379H1",
+    "sections": [
+      {
+        "name": "LEC5101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 64800000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 75600000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mental Health, Morality & Legal Controls",
+    "code": "CRI431H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 54000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Intermediate Estonian Language and Culture II",
+    "code": "EST201H1",
+    "sections": [
+      {
+        "name": "LEC5101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 61200000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 68400000
+            }
+          },
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 61200000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 68400000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "The Media Franchise",
+    "code": "BMS391H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 43200000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 50400000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Molecular Immunology",
+    "code": "IMM428H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 36000000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 39600000
+            }
+          },
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 36000000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 39600000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Asian Genders",
+    "code": "CAS360H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 39600000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 46800000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Continuum Mechanics",
+    "code": "PHY454H1",
+    "sections": [
+      {
+        "name": "LEC2001",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 39600000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 43200000
+            }
+          },
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 39600000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 43200000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 39600000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 43200000
+            }
+          }
+        ]
+      },
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 39600000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 43200000
+            }
+          },
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 39600000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 43200000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Language & Society",
+    "code": "ANT253H1",
+    "sections": [
+      {
+        "name": "TUT0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "SYNC"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 50400000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 54000000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0701",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "SYNC"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 50400000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT1201",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "SYNC"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 39600000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 43200000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT1401",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "SYNC"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 50400000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT1601",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "SYNC"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 54000000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 57600000
+            }
+          }
+        ]
+      },
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "SYNC"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 39600000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 46800000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0501",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "SYNC"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 39600000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 43200000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0801",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "SYNC"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 50400000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 54000000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT1101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "SYNC"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 36000000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 39600000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0301",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "SYNC"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 57600000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 61200000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT1301",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "SYNC"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 43200000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 46800000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT1501",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "SYNC"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 50400000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 54000000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT5101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "SYNC"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 61200000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 64800000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0201",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "SYNC"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 54000000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 57600000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0601",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "SYNC"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 43200000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 46800000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0901",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "SYNC"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 54000000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 57600000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT1001",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "SYNC"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 57600000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 61200000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0401",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "SYNC"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 36000000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 39600000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Introduction to Image Understanding",
+    "code": "CSC420H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 54000000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 61200000
+            }
+          },
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 54000000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 57600000
+            }
+          }
+        ]
+      },
+      {
+        "name": "LEC2001",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 54000000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 57600000
+            }
+          },
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 54000000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 61200000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Introduction to American Literature",
+    "code": "ENG250H1",
+    "sections": [
+      {
+        "name": "TUT5103",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 64800000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 68400000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT5203",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 68400000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 72000000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT5201",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 68400000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 72000000
+            }
+          }
+        ]
+      },
+      {
+        "name": "LEC5101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 64800000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 72000000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT5101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 64800000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 68400000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT5202",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 68400000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 72000000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT5102",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 64800000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 68400000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Topics in Chinese History",
+    "code": "HIS485H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 39600000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 46800000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sociology of Martial Arts",
+    "code": "SOC470H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 54000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Weimar: Sex and Politics in the Roaring Twenties",
+    "code": "GER323H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 43200000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 50400000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Modern Standard Japanese II for Students with Prior Background",
+    "code": "EAS221H1",
+    "sections": [
+      {
+        "name": "TUT0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 36000000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 43200000
+            }
+          }
+        ]
+      },
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 54000000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0301",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 57600000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 64800000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0201",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 54000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Structural Development of the Iranian Languages",
+    "code": "NMC480H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 39600000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 46800000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Advanced Topics in Cellular Neurophysiology",
+    "code": "CSB432H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 57600000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Evolutionary Ecology",
+    "code": "EEB324H1",
+    "sections": [
+      {
+        "name": "TUT0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 50400000
+            }
+          }
+        ]
+      },
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 39600000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 43200000
+            }
+          },
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 50400000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 57600000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0201",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 50400000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 54000000
+            }
+          }
+        ]
+      },
+      {
+        "name": "TUT0301",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 54000000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 57600000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Comparative Plant Morphology",
+    "code": "EEB340H1",
+    "sections": [
+      {
+        "name": "PRA0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 32400000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 43200000
+            }
+          }
+        ]
+      },
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 50400000
+            }
+          },
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 50400000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Renaissance Art and Architecture",
+    "code": "FAH230H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 54000000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 61200000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Class and Work in the Americas",
+    "code": "SPA196H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 54000000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 61200000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Molecular Aspects of Cardiovascular Function",
+    "code": "PSL462H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 54000000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 64800000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Polarized-light Microscopy in Archaeology II: Applications",
+    "code": "NMC470H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "HYBR"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 54000000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 61200000
+            }
+          },
+          {
+            "start": {
+              "day": 4,
+              "millisofday": 61200000
+            },
+            "end": {
+              "day": 4,
+              "millisofday": 68400000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Stylistic Editing and Copy Editing",
+    "code": "WRR310H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 54000000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 64800000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mediaeval Music: thought and practice",
+    "code": "MST326H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20241",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 1,
+              "millisofday": 50400000
+            },
+            "end": {
+              "day": 1,
+              "millisofday": 57600000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Advertising and Media",
+    "code": "BMS387H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 3,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 3,
+              "millisofday": 54000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Advanced Studies in Cinema",
+    "code": "CIN420H1",
+    "sections": [
+      {
+        "name": "LEC0101",
+        "deliveryModes": [
+          {
+            "session": "20239",
+            "mode": "INPER"
+          }
+        ],
+        "meetingTimes": [
+          {
+            "start": {
+              "day": 2,
+              "millisofday": 46800000
+            },
+            "end": {
+              "day": 2,
+              "millisofday": 57600000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,329 @@
+{
+  "name": "Software Design",
+  "code": "CSC207H1",
+  "sections": [
+    {
+      "name": "TUT5201",
+      "deliveryModes": [
+        {
+          "session": "20239",
+          "mode": "INPER"
+        }
+      ],
+      "meetingTimes": [
+        {
+          "start": {
+            "day": 1,
+            "millisofday": 68400000
+          },
+          "end": {
+            "day": 1,
+            "millisofday": 75600000
+          }
+        }
+      ]
+    },
+    {
+      "name": "TUT0401",
+      "deliveryModes": [
+        {
+          "session": "20239",
+          "mode": "INPER"
+        }
+      ],
+      "meetingTimes": [
+        {
+          "start": {
+            "day": 1,
+            "millisofday": 54000000
+          },
+          "end": {
+            "day": 1,
+            "millisofday": 61200000
+          }
+        }
+      ]
+    },
+    {
+      "name": "TUT0301",
+      "deliveryModes": [
+        {
+          "session": "20239",
+          "mode": "INPER"
+        }
+      ],
+      "meetingTimes": [
+        {
+          "start": {
+            "day": 1,
+            "millisofday": 46800000
+          },
+          "end": {
+            "day": 1,
+            "millisofday": 54000000
+          }
+        }
+      ]
+    },
+    {
+      "name": "TUT5101",
+      "deliveryModes": [
+        {
+          "session": "20239",
+          "mode": "INPER"
+        }
+      ],
+      "meetingTimes": [
+        {
+          "start": {
+            "day": 1,
+            "millisofday": 61200000
+          },
+          "end": {
+            "day": 1,
+            "millisofday": 68400000
+          }
+        }
+      ]
+    },
+    {
+      "name": "LEC0201",
+      "deliveryModes": [
+        {
+          "session": "20239",
+          "mode": "INPER"
+        }
+      ],
+      "meetingTimes": [
+        {
+          "start": {
+            "day": 2,
+            "millisofday": 46800000
+          },
+          "end": {
+            "day": 2,
+            "millisofday": 50400000
+          }
+        },
+        {
+          "start": {
+            "day": 4,
+            "millisofday": 46800000
+          },
+          "end": {
+            "day": 4,
+            "millisofday": 50400000
+          }
+        }
+      ]
+    },
+    {
+      "name": "TUT0101",
+      "deliveryModes": [
+        {
+          "session": "20239",
+          "mode": "INPER"
+        }
+      ],
+      "meetingTimes": [
+        {
+          "start": {
+            "day": 1,
+            "millisofday": 32400000
+          },
+          "end": {
+            "day": 1,
+            "millisofday": 39600000
+          }
+        }
+      ]
+    },
+    {
+      "name": "LEC0401",
+      "deliveryModes": [
+        {
+          "session": "20239",
+          "mode": "INPER"
+        }
+      ],
+      "meetingTimes": [
+        {
+          "start": {
+            "day": 2,
+            "millisofday": 54000000
+          },
+          "end": {
+            "day": 2,
+            "millisofday": 57600000
+          }
+        },
+        {
+          "start": {
+            "day": 4,
+            "millisofday": 54000000
+          },
+          "end": {
+            "day": 4,
+            "millisofday": 57600000
+          }
+        }
+      ]
+    },
+    {
+      "name": "TUT0501",
+      "deliveryModes": [
+        {
+          "session": "20239",
+          "mode": "INPER"
+        }
+      ],
+      "meetingTimes": [
+        {
+          "start": {
+            "day": 4,
+            "millisofday": 32400000
+          },
+          "end": {
+            "day": 4,
+            "millisofday": 39600000
+          }
+        }
+      ]
+    },
+    {
+      "name": "LEC0301",
+      "deliveryModes": [
+        {
+          "session": "20239",
+          "mode": "INPER"
+        }
+      ],
+      "meetingTimes": [
+        {
+          "start": {
+            "day": 2,
+            "millisofday": 50400000
+          },
+          "end": {
+            "day": 2,
+            "millisofday": 54000000
+          }
+        },
+        {
+          "start": {
+            "day": 4,
+            "millisofday": 50400000
+          },
+          "end": {
+            "day": 4,
+            "millisofday": 54000000
+          }
+        }
+      ]
+    },
+    {
+      "name": "LEC0501",
+      "deliveryModes": [
+        {
+          "session": "20239",
+          "mode": "INPER"
+        }
+      ],
+      "meetingTimes": [
+        {
+          "start": {
+            "day": 2,
+            "millisofday": 57600000
+          },
+          "end": {
+            "day": 2,
+            "millisofday": 61200000
+          }
+        },
+        {
+          "start": {
+            "day": 4,
+            "millisofday": 57600000
+          },
+          "end": {
+            "day": 4,
+            "millisofday": 61200000
+          }
+        }
+      ]
+    },
+    {
+      "name": "TUT0201",
+      "deliveryModes": [
+        {
+          "session": "20239",
+          "mode": "INPER"
+        }
+      ],
+      "meetingTimes": [
+        {
+          "start": {
+            "day": 1,
+            "millisofday": 39600000
+          },
+          "end": {
+            "day": 1,
+            "millisofday": 46800000
+          }
+        }
+      ]
+    },
+    {
+      "name": "LEC0101",
+      "deliveryModes": [
+        {
+          "session": "20239",
+          "mode": "INPER"
+        }
+      ],
+      "meetingTimes": [
+        {
+          "start": {
+            "day": 2,
+            "millisofday": 36000000
+          },
+          "end": {
+            "day": 2,
+            "millisofday": 39600000
+          }
+        },
+        {
+          "start": {
+            "day": 4,
+            "millisofday": 36000000
+          },
+          "end": {
+            "day": 4,
+            "millisofday": 39600000
+          }
+        }
+      ]
+    },
+    {
+      "name": "LEC5101",
+      "deliveryModes": [
+        {
+          "session": "20239",
+          "mode": "INPER"
+        }
+      ],
+      "meetingTimes": [
+        {
+          "start": {
+            "day": 4,
+            "millisofday": 64800000
+          },
+          "end": {
+            "day": 4,
+            "millisofday": 72000000
+          }
+        }
+      ]
+    }
+  ]
+}

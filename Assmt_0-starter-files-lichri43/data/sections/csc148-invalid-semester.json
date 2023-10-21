@@ -1,0 +1,31 @@
+{
+  "name": "LEC010aa1",
+  "deliveryModes": [
+    {
+      "session": "20239",
+      "mode": "INPER"
+    }
+  ],
+  "meetingTimes": [
+    {
+      "start": {
+        "day": 1,
+        "millisofday": 36000000
+      },
+      "end": {
+        "day": 1,
+        "millisofday": 39600000
+      }
+    },
+    {
+      "start": {
+        "day": 3,
+        "millisofday": 32400000
+      },
+      "end": {
+        "day": 3,
+        "millisofday": 39600000
+      }
+    }
+  ]
+}

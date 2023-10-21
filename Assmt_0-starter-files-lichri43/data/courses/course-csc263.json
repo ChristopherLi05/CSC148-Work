@@ -1,0 +1,214 @@
+{
+  "name": "Data Structures and Analysis",
+  "code": "CSC263H1",
+  "sections": [
+    {
+      "name": "LEC0201",
+      "deliveryModes": [
+        {
+          "session": "20239",
+          "mode": "INPER"
+        }
+      ],
+      "meetingTimes": [
+        {
+          "start": {
+            "day": 1,
+            "millisofday": 54000000
+          },
+          "end": {
+            "day": 1,
+            "millisofday": 57600000
+          }
+        },
+        {
+          "start": {
+            "day": 3,
+            "millisofday": 54000000
+          },
+          "end": {
+            "day": 3,
+            "millisofday": 57600000
+          }
+        }
+      ]
+    },
+    {
+      "name": "LEC2101",
+      "deliveryModes": [
+        {
+          "session": "20239",
+          "mode": "INPER"
+        }
+      ],
+      "meetingTimes": [
+        {
+          "start": {
+            "day": 1,
+            "millisofday": 54000000
+          },
+          "end": {
+            "day": 1,
+            "millisofday": 57600000
+          }
+        },
+        {
+          "start": {
+            "day": 3,
+            "millisofday": 54000000
+          },
+          "end": {
+            "day": 3,
+            "millisofday": 57600000
+          }
+        }
+      ]
+    },
+    {
+      "name": "TUT0202",
+      "deliveryModes": [
+        {
+          "session": "20239",
+          "mode": "INPER"
+        }
+      ],
+      "meetingTimes": [
+        {
+          "start": {
+            "day": 5,
+            "millisofday": 54000000
+          },
+          "end": {
+            "day": 5,
+            "millisofday": 57600000
+          }
+        }
+      ]
+    },
+    {
+      "name": "LEC0101",
+      "deliveryModes": [
+        {
+          "session": "20239",
+          "mode": "INPER"
+        }
+      ],
+      "meetingTimes": [
+        {
+          "start": {
+            "day": 1,
+            "millisofday": 46800000
+          },
+          "end": {
+            "day": 1,
+            "millisofday": 50400000
+          }
+        },
+        {
+          "start": {
+            "day": 3,
+            "millisofday": 46800000
+          },
+          "end": {
+            "day": 3,
+            "millisofday": 50400000
+          }
+        }
+      ]
+    },
+    {
+      "name": "LEC2001",
+      "deliveryModes": [
+        {
+          "session": "20239",
+          "mode": "INPER"
+        }
+      ],
+      "meetingTimes": [
+        {
+          "start": {
+            "day": 1,
+            "millisofday": 46800000
+          },
+          "end": {
+            "day": 1,
+            "millisofday": 50400000
+          }
+        },
+        {
+          "start": {
+            "day": 3,
+            "millisofday": 46800000
+          },
+          "end": {
+            "day": 3,
+            "millisofday": 50400000
+          }
+        }
+      ]
+    },
+    {
+      "name": "TUT0102",
+      "deliveryModes": [
+        {
+          "session": "20239",
+          "mode": "INPER"
+        }
+      ],
+      "meetingTimes": [
+        {
+          "start": {
+            "day": 5,
+            "millisofday": 46800000
+          },
+          "end": {
+            "day": 5,
+            "millisofday": 50400000
+          }
+        }
+      ]
+    },
+    {
+      "name": "TUT0101",
+      "deliveryModes": [
+        {
+          "session": "20239",
+          "mode": "INPER"
+        }
+      ],
+      "meetingTimes": [
+        {
+          "start": {
+            "day": 5,
+            "millisofday": 46800000
+          },
+          "end": {
+            "day": 5,
+            "millisofday": 50400000
+          }
+        }
+      ]
+    },
+    {
+      "name": "TUT0201",
+      "deliveryModes": [
+        {
+          "session": "20239",
+          "mode": "INPER"
+        }
+      ],
+      "meetingTimes": [
+        {
+          "start": {
+            "day": 5,
+            "millisofday": 54000000
+          },
+          "end": {
+            "day": 5,
+            "millisofday": 57600000
+          }
+        }
+      ]
+    }
+  ]
+}
