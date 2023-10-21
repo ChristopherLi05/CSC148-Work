@@ -133,6 +133,9 @@ class Direction(Enum):
     DOWN = -1
 
 
+MOVEMENT_TIME = 3
+
+
 class Visualizer:
     """Visualizer for the current state of a simulation.
 
@@ -232,8 +235,8 @@ class Visualizer:
         from_x = 10
         target_x = elevator.rect.centerx + random.randint(-3, 3)
 
-        for frame in range(21):  # Move in 20 seconds
-            person.rect.centerx = from_x + (target_x - from_x) * frame // 20
+        for frame in range(MOVEMENT_TIME + 1):  # Move in 20 seconds
+            person.rect.centerx = from_x + (target_x - from_x) * frame // MOVEMENT_TIME
             self.render()
 
         elevator.update()
@@ -250,8 +253,8 @@ class Visualizer:
 
         elevator.update()
 
-        for frame in range(21):  # Move in 20 seconds
-            x = from_x + (target_x - from_x) * frame // 20
+        for frame in range(MOVEMENT_TIME + 1):  # Move in 20 seconds
+            x = from_x + (target_x - from_x) * frame // MOVEMENT_TIME
             person.rect.centerx = x
             self.render()
 
@@ -262,12 +265,12 @@ class Visualizer:
         if not self._visualize:
             return
 
-        for _ in range(20):  # Move in 20 seconds
+        for _ in range(MOVEMENT_TIME):  # Move in 20 seconds
             for elevator, direction in zip(elevators, directions):
                 if direction == Direction.UP:
-                    step = - FLOOR_HEIGHT / 20
+                    step = - FLOOR_HEIGHT / MOVEMENT_TIME
                 elif direction == Direction.DOWN:
-                    step = FLOOR_HEIGHT / 20
+                    step = FLOOR_HEIGHT / MOVEMENT_TIME
                 else:
                     step = 0
                 elevator.rect.bottom += step
@@ -316,7 +319,7 @@ class Visualizer:
             self._sprite_group.add(floor)
 
         for i, elevator in enumerate(elevators):
-            elevator.rect.centerx =\
+            elevator.rect.centerx = \
                 (i + 1) * WIDTH // (self._num_elevators + 1)
             elevator.rect.bottom = self._total_height() - FLOOR_BORDER_HEIGHT
 
@@ -330,9 +333,9 @@ class Visualizer:
         """Return the y-coordinate of the given floor."""
         assert self._num_floors >= floor >= 1, f'{self._num_floors}, {floor}'
         return (
-            self._total_height()
-            - (floor - 1) * FLOOR_HEIGHT
-            - FLOOR_BORDER_HEIGHT
+                self._total_height()
+                - (floor - 1) * FLOOR_HEIGHT
+                - FLOOR_BORDER_HEIGHT
         )
 
 
@@ -349,16 +352,16 @@ GREEN = (0, 255, 0)
 DARK_GREEN = (0, 100, 0)
 
 # Dimensions for various objects
-WIDTH = 900               # Screen width
+WIDTH = 900  # Screen width
 STAT_WINDOW_HEIGHT = 100  # Space at the top for stats and messages
-FLOOR_HEIGHT = 100        # The height of each floor (including the border)
+FLOOR_HEIGHT = 100  # The height of each floor (including the border)
 FLOOR_BORDER_HEIGHT = 10  # The height of the border
 
-ELEVATOR_HEIGHT = 66      # Elevator height
-ELEVATOR_WIDTH = 44       # Elevator width
+ELEVATOR_HEIGHT = 66  # Elevator height
+ELEVATOR_WIDTH = 44  # Elevator width
 
-PERSON_HEIGHT = 50        # Person height
-PERSON_WIDTH = 32         # Person width
+PERSON_HEIGHT = 50  # Person height
+PERSON_WIDTH = 32  # Person width
 
 # Frames per second based on config speed
 FPS = 60
@@ -378,6 +381,7 @@ COMIC_SANS = pygame.font.SysFont('Comic Sans MS', FONT_HEIGHT)
 class _FloorSprite(pygame.sprite.Sprite):
     """Sprite that draws a floor of the building.
     """
+
     def __init__(self, width: int, height: int, y: int) -> None:
         """Initialize a sprite representing a floor of the building."""
         super().__init__()
@@ -392,6 +396,7 @@ class _FloorSprite(pygame.sprite.Sprite):
 class _FloorNum(pygame.sprite.Sprite):
     """Text Sprite to Label the floor number.
     """
+
     def __init__(self, floor_y: int, text: str) -> None:
         """Initialize a floor number text sprite."""
         super().__init__()
@@ -405,6 +410,7 @@ class _FloorNum(pygame.sprite.Sprite):
 class _StatLine(pygame.sprite.Sprite):
     """Text Sprite for displaying some text.
     """
+
     def __init__(self, y: int, text: str) -> None:
         """Initialize a text sprite."""
         super().__init__()

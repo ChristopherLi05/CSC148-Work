@@ -141,7 +141,8 @@ class FileArrivals(ArrivalGenerator):
 
     We have provided some sample CSV files under the data/ folder.
     """
-    arrival_data: dict[int, list[Person]]
+    # TODO - figure out if we can change this typing
+    arrival_data: dict[int, dict[int, list[Person]]]
 
     def __init__(self, max_floor: int, filename: str) -> None:
         """Initialize a new FileArrivals algorithm from the given file.
@@ -159,10 +160,16 @@ class FileArrivals(ArrivalGenerator):
         with open(filename) as csvfile:
             reader = csv.reader(csvfile)
             for line in reader:
-                # TODO: complete this. <line> is a list of strings corresponding to one line
-                #       of the original file. You'll need to convert the strings to ints, use
-                #       the ints to create Person objects, and finally update self.arrival_data.
-                ...
+                line = [int(i) for i in line]
+                floors = {}
+
+                for s, t in zip(line[1::2], line[2::2]):
+                    if s not in floors:
+                        floors[s] = []
+
+                    floors[s].append(Person(s, t))
+
+                self.arrival_data[line[0]] = floors
 
     def generate(self, round_num: int) -> dict[int, list[Person]]:
         """Return the new arrivals for the simulation at the given round.
@@ -187,6 +194,10 @@ class FileArrivals(ArrivalGenerator):
         >>> print(round0_arrivals[5])
         [Person(start=5, target=3, wait_time=0)]
         """
+
+        if round_num in self.arrival_data:
+            return self.arrival_data[round_num]
+        return {}
 
 
 ###############################################################################
@@ -258,6 +269,8 @@ class EndToEndLoop(MovingAlgorithm):
                 e.target_floor = 1
 
 
+# TODO - check to see what happens when 2 different empty elevators are heading to the same floor?
+
 @check_contracts
 class FurthestFloor(MovingAlgorithm):
     """A moving algorithm that chooses far-away target floors.
@@ -279,6 +292,51 @@ class FurthestFloor(MovingAlgorithm):
     Note: In Cases 1 and 2, if there is a tie, always pick the *lowest* floor.
     """
 
+    # TODO - check to see what it means by "Cases 1, if there is a tie"
+
+    def update_target_floors(self,
+                             elevators: list[Elevator],
+                             waiting: dict[int, list[Person]],
+                             max_floor: int) -> None:
+        """Updates elevator target floors.
+
+        The parameters are:
+        - elevators: a list of the system's elevators
+        - waiting: a dictionary mapping floor number to the list of people waiting on that floor
+        - max_floor: the maximum floor number in the simulation
+
+        Preconditions:
+        - elevators, waiting, and max_floor are from the same simulation run
+        """
+
+        for e in elevators:
+            # Case 1
+            if e.passengers:
+                if e.passengers[0].target < e.current_floor:
+                    e.target_floor = min(p.target for p in e.passengers)
+                else:
+                    e.target_floor = max(p.target for p in e.passengers)
+            # Case 2
+            elif e.current_floor == e.target_floor:
+                max_distance = -1
+                floor_num = max_floor + 1
+
+                # Cannot assume waiting is sorted by key value
+                for i, j in waiting.items():
+                    if not j:
+                        continue
+
+                    temp_dist = abs(e.current_floor - i)
+
+                    if temp_dist > max_distance:
+                        floor_num = i
+                        max_distance = temp_dist
+                    elif temp_dist == max_distance:
+                        floor_num = min(floor_num, i)
+
+                if max_distance != -1:
+                    e.target_floor = floor_num
+
 
 if __name__ == '__main__':
     import doctest
@@ -294,10 +352,12 @@ if __name__ == '__main__':
     # you see "None!" under both "Code Errors" and "Style and Convention Errors".
     # TIP: To quickly uncomment lines in PyCharm, select the lines below and press
     # "Ctrl + /" or "⌘ + /".
-    # import python_ta
-    # python_ta.check_all(config={
-    #     'allowed-io': ['FileArrivals.__init__'],
-    #     'extra-imports': ['a1_entities', 'csv'],
-    #     'max-nested-blocks': 4,
-    #     'max-line-length': 100
-    # })
+    import python_ta
+
+    python_ta.check_all(config={
+        'allowed-io': ['FileArrivals.__init__'],
+        'extra-imports': ['a1_entities', 'csv'],
+        'max-nested-blocks': 4,
+        'max-line-length': 100,
+        "output-format": "python_ta.reporters.PlainReporter"
+    })
