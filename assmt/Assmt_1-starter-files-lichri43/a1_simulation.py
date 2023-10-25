@@ -25,8 +25,6 @@ from a1_entities import Person, Elevator
 from a1_visualizer import Direction, Visualizer
 
 
-# TODO - check if I can do this in OH
-
 def sign(num: int | float) -> int:
     """
     Returns the sign of the number: -1 if num < 0, 0 if num = 0, 1 if num > 0
@@ -74,6 +72,7 @@ class Simulation:
     num_rounds: int
     total_people: int
     waiting_times: list[int]
+    final_floors: dict[int, list[Person]]
 
     def __init__(self,
                  config: dict[str, Any]) -> None:
@@ -101,6 +100,7 @@ class Simulation:
         self.num_rounds = 0
         self.total_people = 0
         self.waiting_times = []
+        self.final_floors = {i + 1: [] for i in range(self.num_floors)}
 
         # Initialize the visualizer (this is done for you).
         # Note that this should be executed *after* the other attributes
@@ -144,7 +144,6 @@ class Simulation:
             self.update_wait_times()
 
             # Pause for 1 second
-            # TODO - uncomment this
             # self.visualizer.wait(1)
 
         # The following line waits until the user closes the Pygame window
@@ -168,7 +167,9 @@ class Simulation:
                 if e.passengers[i].target == e.current_floor:
                     p = e.passengers.pop(i)
                     self.visualizer.show_disembarking(p, e)
+
                     self.waiting_times.append(p.wait_time)
+                    self.final_floors[p.target].append(p)
 
     def generate_arrivals(self, round_num: int) -> None:
         """Generate and visualize new arrivals."""
@@ -197,21 +198,22 @@ class Simulation:
             if not (elevators := mappings[floor_num]):
                 continue
 
-            while psngr:
+            to_remove = []
+
+            for p in psngr:
                 for e in elevators:
                     if (e[1].fullness() != 1
-                            and (e[0] == 0 or sign(psngr[0].target - psngr[0].start) == e[0])):
-                        p = psngr.pop(0)
-
+                            and (e[0] == 0 or sign(p.target - p.start) == e[0])):
                         e[1].passengers.append(p)
-                        # e[1].target_floor = e[1].target_floor \
-                        #     if e[1].target_floor != e[1].current_floor \
-                        #     else p.target
+                        to_remove.append(p)
 
                         self.visualizer.show_boarding(p, e[1])
                         break
                 else:
                     break
+
+            for p in to_remove:
+                psngr.remove(p)
 
     def move_elevators(self) -> None:
         """Update elevator target floors and then move them."""
@@ -222,8 +224,12 @@ class Simulation:
         for e in self.elevators:
             d = sign(e.target_floor - e.current_floor)
 
-            e.current_floor += d
-            directions.append([Direction.STAY, Direction.UP, Direction.DOWN][d])
+            # This should always be good! blame the moving algorithm if it breaks
+            if 0 < e.current_floor + d < self.num_floors + 1:
+                e.current_floor += d
+                directions.append([Direction.STAY, Direction.UP, Direction.DOWN][d])
+            else:
+                raise RuntimeError("Target floor not within bounds")
 
         self.visualizer.show_elevator_moves(self.elevators, directions)
 
@@ -259,7 +265,8 @@ class Simulation:
             'total_people': self.total_people,
             'people_completed': len(self.waiting_times),
             'max_time': max(self.waiting_times) if self.waiting_times else -1,
-            'avg_time': int(sum(self.waiting_times) / len(self.waiting_times))
+            'avg_time': int(sum(self.waiting_times) / len(self.waiting_times)),
+            "final_floors": self.final_floors
         }
 
 
@@ -274,16 +281,14 @@ def run_example_simulation() -> dict[str, int]:
     """
     num_floors = 8
     num_elevators = 4
-    elevator_capacity = 3
+    elevator_capacity = 1
 
     config = {
         'num_floors': num_floors,
         'num_elevators': num_elevators,
         'elevator_capacity': elevator_capacity,
         'arrival_generator': a1_algorithms.SingleArrivals(num_floors),
-        # 'arrival_generator': a1_algorithms.FileArrivals(num_floors, "data/sample_arrivals_ten.csv"),
-        # 'moving_algorithm': a1_algorithms.EndToEndLoop(),
-        'moving_algorithm': a1_algorithms.FurthestFloor(),
+        'moving_algorithm': a1_algorithms.EndToEndLoop(),
         'visualize': True
     }
 
@@ -293,7 +298,7 @@ def run_example_simulation() -> dict[str, int]:
 
 
 if __name__ == '__main__':
-    print(run_example_simulation())
+    # print(run_example_simulation())
 
     # We haven't provided any doctests for you, but if you add your own the following
     # code will run them!

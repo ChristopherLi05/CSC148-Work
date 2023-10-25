@@ -141,8 +141,7 @@ class FileArrivals(ArrivalGenerator):
 
     We have provided some sample CSV files under the data/ folder.
     """
-    # TODO - figure out if we can change this typing
-    arrival_data: dict[int, dict[int, list[Person]]]
+    arrival_data: dict[int, list[Person]]
 
     def __init__(self, max_floor: int, filename: str) -> None:
         """Initialize a new FileArrivals algorithm from the given file.
@@ -161,15 +160,19 @@ class FileArrivals(ArrivalGenerator):
             reader = csv.reader(csvfile)
             for line in reader:
                 line = [int(i) for i in line]
-                floors = {}
 
-                for s, t in zip(line[1::2], line[2::2]):
-                    if s not in floors:
-                        floors[s] = []
+                self.arrival_data[line[0]] = [Person(*a) for a in zip(line[1::2], line[2::2])]
 
-                    floors[s].append(Person(s, t))
-
-                self.arrival_data[line[0]] = floors
+                # line = [int(i) for i in line]
+                # floors = {}
+                #
+                # for s, t in zip(line[1::2], line[2::2]):
+                #     if s not in floors:
+                #         floors[s] = []
+                #
+                #     floors[s].append(Person(s, t))
+                #
+                # self.arrival_data[line[0]] = floors
 
     def generate(self, round_num: int) -> dict[int, list[Person]]:
         """Return the new arrivals for the simulation at the given round.
@@ -196,7 +199,12 @@ class FileArrivals(ArrivalGenerator):
         """
 
         if round_num in self.arrival_data:
-            return self.arrival_data[round_num]
+            floors = {}
+            for i in self.arrival_data[round_num]:
+                if i.start not in floors:
+                    floors[i.start] = []
+                floors[i.start].append(i)
+            return floors
         return {}
 
 
@@ -269,8 +277,6 @@ class EndToEndLoop(MovingAlgorithm):
                 e.target_floor = 1
 
 
-# TODO - check to see what happens when 2 different empty elevators are heading to the same floor?
-
 @check_contracts
 class FurthestFloor(MovingAlgorithm):
     """A moving algorithm that chooses far-away target floors.
@@ -292,8 +298,6 @@ class FurthestFloor(MovingAlgorithm):
     Note: In Cases 1 and 2, if there is a tie, always pick the *lowest* floor.
     """
 
-    # TODO - check to see what it means by "Cases 1, if there is a tie"
-
     def update_target_floors(self,
                              elevators: list[Elevator],
                              waiting: dict[int, list[Person]],
@@ -312,11 +316,18 @@ class FurthestFloor(MovingAlgorithm):
         for e in elevators:
             # Case 1
             if e.passengers:
-                if e.passengers[0].target < e.current_floor:
-                    e.target_floor = min(p.target for p in e.passengers)
-                else:
-                    e.target_floor = max(p.target for p in e.passengers)
-            # Case 2
+                # We just accepted passengers and are trying to determine which direction to go to
+                if e.current_floor == e.target_floor:
+                    # Getting around 4 max nested blocks
+                    e.target_floor = sorted(e.passengers,
+                                            key=lambda x: (-abs(x.target - e.current_floor),
+                                                           x.target))[0].target
+                else:  # We are already heading in a direction and are just updating to max dir
+                    if e.passengers[0].target < e.current_floor:
+                        e.target_floor = min(p.target for p in e.passengers)
+                    else:
+                        e.target_floor = max(p.target for p in e.passengers)
+            # Case 2, elevator is idle and has no passengers
             elif e.current_floor == e.target_floor:
                 max_distance = -1
                 floor_num = max_floor + 1

@@ -28,6 +28,15 @@ def test_person_initializer() -> None:
     assert person.wait_time == 0
 
 
+def test_elevator_initializer() -> None:
+    """Tests the elevator initializer."""
+    elevator = Elevator(5)
+
+    assert elevator.capacity == 5
+    assert elevator.current_floor == 1
+    assert elevator.fullness() == 0
+
+
 def test_simulation_initializer_num_floors() -> None:
     """Test the simulation initializer for the num_floors attribute."""
     config = get_example_config()  # See "Helpers" at the bottom of this file
@@ -56,6 +65,42 @@ def test_single_arrivals_example() -> None:
 
     actual_targets = []
     for round_num in range(7):
+        result = arrival_generator.generate(round_num)
+        assert 1 in result  # Checks that result has the right key
+
+        assert len(result[1]) == 1  # Checks that there's only one person generated
+
+        person = result[1][0]
+        actual_targets.append(person.target)
+
+    assert actual_targets == expected_targets
+
+
+def test_single_arrivals_better() -> None:
+    """Test the SingleArrivals with a higher number"""
+    arrival_generator = SingleArrivals(6)
+    expected_targets = [2, 3, 4, 5, 6, 2, 3, 4, 5, 6]
+
+    actual_targets = []
+    for round_num in range(10):
+        result = arrival_generator.generate(round_num)
+        assert 1 in result  # Checks that result has the right key
+
+        assert len(result[1]) == 1  # Checks that there's only one person generated
+
+        person = result[1][0]
+        actual_targets.append(person.target)
+
+    assert actual_targets == expected_targets
+
+
+def test_single_arrivals_single_floor() -> None:
+    """Test the SingleArrivals with a single floor"""
+    arrival_generator = SingleArrivals(2)
+    expected_targets = [2, 2, 2, 2]
+
+    actual_targets = []
+    for round_num in range(4):
         result = arrival_generator.generate(round_num)
         assert 1 in result  # Checks that result has the right key
 
@@ -147,6 +192,51 @@ def test_furthest_floor_simple() -> None:
     moving_algorithm.update_target_floors([elevator], waiting, max_floor)
 
     assert elevator.target_floor == 5
+
+
+def test_furthest_floor_case_1_multiple_people_same_dist() -> None:
+    """Checks when 2 people board elevator at the same time but have different directions"""
+
+    moving_algorithm = FurthestFloor()
+    max_floor = 5
+    waiting = {i: [] for i in range(1, max_floor + 1)}
+
+    e = Elevator(5)
+    e.current_floor = 3
+    e.target_floor = 3
+
+    person1 = Person(3, 5)
+    person2 = Person(3, 1)
+    person3 = Person(3, 4)
+
+    e.passengers.append(person1)
+    e.passengers.append(person2)
+    e.passengers.append(person3)
+
+    moving_algorithm.update_target_floors([e], waiting, max_floor)
+
+    assert e.target_floor == 1
+
+
+def test_furthest_floor_case_1_multiple_people_diff_dist() -> None:
+    """Checks when 2 people board elevator at the same time but have different directions"""
+    moving_algorithm = FurthestFloor()
+    max_floor = 5
+    waiting = {i: [] for i in range(1, max_floor + 1)}
+
+    e = Elevator(5)
+    e.current_floor = 3
+    e.target_floor = 3
+
+    person1 = Person(3, 5)
+    person2 = Person(3, 2)
+
+    e.passengers.append(person1)
+    e.passengers.append(person2)
+
+    moving_algorithm.update_target_floors([e], waiting, max_floor)
+
+    assert e.target_floor == 5
 
 
 ###############################################################################

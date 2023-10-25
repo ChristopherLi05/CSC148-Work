@@ -99,8 +99,6 @@ class Person(PersonSprite):
         return f'Person(start={self.start}, target={self.target}, wait_time={self.wait_time})'
 
 
-# TODO - check if we can add extra methods in Elevator (board person)
-
 @check_contracts
 class Elevator(ElevatorSprite):
     """An elevator in the elevator simulation.
