@@ -133,7 +133,7 @@ class Direction(Enum):
     DOWN = -1
 
 
-MOVEMENT_TIME = 3
+MOVEMENT_TIME = 1
 
 
 class Visualizer:
@@ -257,6 +257,9 @@ class Visualizer:
             x = from_x + (target_x - from_x) * frame // MOVEMENT_TIME
             person.rect.centerx = x
             self.render()
+
+        self._sprite_group.remove(person)
+        self.render()
 
     def show_elevator_moves(self,
                             elevators: list[ElevatorSprite],
