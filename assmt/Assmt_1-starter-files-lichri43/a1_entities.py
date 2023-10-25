@@ -45,6 +45,9 @@ class Person(PersonSprite):
     target: int
     wait_time: int
 
+    # TODO - remove this
+    marked: bool = False
+
     def __init__(self, start: int, target: int) -> None:
         """Initialize a person with the given start and target floor.
 

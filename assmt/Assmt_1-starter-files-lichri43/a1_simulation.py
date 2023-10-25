@@ -273,22 +273,22 @@ def run_example_simulation() -> dict[str, int]:
     (e.g., by changing the configuration values) for further testing.
     """
     num_floors = 8
-    num_elevators = 4
+    num_elevators = 5
     elevator_capacity = 3
 
     config = {
         'num_floors': num_floors,
         'num_elevators': num_elevators,
         'elevator_capacity': elevator_capacity,
-        'arrival_generator': a1_algorithms.SingleArrivals(num_floors),
+        'arrival_generator': a1_algorithms.RandomArrivals(num_floors),
         # 'arrival_generator': a1_algorithms.FileArrivals(num_floors, "data/sample_arrivals_ten.csv"),
         # 'moving_algorithm': a1_algorithms.EndToEndLoop(),
-        'moving_algorithm': a1_algorithms.FurthestFloor(),
+        'moving_algorithm': a1_algorithms.BetterMovingAlgorithm(),
         'visualize': True
     }
 
     sim = Simulation(config)
-    stats = sim.run(50)
+    stats = sim.run(99999)
     return stats
 
 

@@ -258,6 +258,9 @@ class Visualizer:
             person.rect.centerx = x
             self.render()
 
+        self._sprite_group.remove(person)
+        self.render()
+
     def show_elevator_moves(self,
                             elevators: list[ElevatorSprite],
                             directions: list[Direction]) -> None:

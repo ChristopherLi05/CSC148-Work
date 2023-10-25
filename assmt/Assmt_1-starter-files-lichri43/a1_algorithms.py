@@ -129,6 +129,90 @@ class SingleArrivals(ArrivalGenerator):
         return {1: [Person(1, (round_num % (self.max_floor - 1) + 2))]}
 
 
+# TODO - remove RandomArrivals
+
+@check_contracts
+class RandomArrivals(ArrivalGenerator):
+    """An arrival generator that adds one person to floor 1 each round.
+
+    SingleArrivals.generate algorithm description:
+
+    - This implementation always generates exactly ONE Person per round.
+    - The new Person always has a starting floor of 1.
+    - At round 0, the new Person has a target floor of 2.
+    - At each subsequent round, the new Person has a target floor one greater than
+      the previous round, until self.max_floor is reached. At the next round, the target floor
+      starts back at 2.
+    - For example, if self.max_floor == 4:
+        - Round 0: target floor 2
+        - Round 1: target floor 3
+        - Round 2: target floor 4
+        - Round 3: target floor 2
+        - Round 4: target floor 3
+        - Round 5: target floor 4
+        - Round 6: target floor 2
+        - etc.
+    """
+    seed = 12301239
+
+    def generate(self, round_num: int) -> dict[int, list[Person]]:
+        """Return the new arrivals for the simulation at the given round.
+
+        Order matters: if there two people with the same starting floor
+        in the returned list, the person who appears first in the list
+        is considered to have arrived at the floor first.
+
+        Note: only floors with at least one new arrival should be included
+        in the returned dictionary. In other words, there should not be
+        any empty lists in the returned dictionary.
+
+        Preconditions:
+        - round_num >= 0
+
+        >>> my_generator = SingleArrivals(4)
+        >>> my_arrivals = my_generator.generate(0)
+        >>> len(my_arrivals) == 1
+        True
+        >>> print(my_arrivals[1])
+        [Person(start=1, target=2, wait_time=0)]
+
+        >>> my_arrivals = my_generator.generate(1)
+        >>> len(my_arrivals) == 1
+        True
+        >>> print(my_arrivals[1])
+        [Person(start=1, target=3, wait_time=0)]
+
+        >>> my_arrivals = my_generator.generate(2)
+        >>> len(my_arrivals) == 1
+        True
+        >>> print(my_arrivals[1])
+        [Person(start=1, target=4, wait_time=0)]
+
+        >>> my_arrivals = my_generator.generate(3)
+        >>> len(my_arrivals) == 1
+        True
+        >>> print(my_arrivals[1])
+        [Person(start=1, target=2, wait_time=0)]
+        """
+
+        to_return = {}
+        for i in range(self.pseudo_random(2) + 1):
+            from_floor = self.pseudo_random(self.max_floor) + 1
+            to_floor = self.pseudo_random(self.max_floor) + 1
+            while from_floor == to_floor:
+                to_floor = self.pseudo_random(self.max_floor) + 1
+
+            if from_floor not in to_return:
+                to_return[from_floor] = []
+            to_return[from_floor].append(Person(from_floor, to_floor))
+
+        return to_return
+
+    def pseudo_random(self, modulo):
+        self.seed = (23 * self.seed + 59) % 9567204947
+        return self.seed % modulo
+
+
 @check_contracts
 class FileArrivals(ArrivalGenerator):
     """Generate arrivals from a CSV file.
@@ -336,6 +420,89 @@ class FurthestFloor(MovingAlgorithm):
 
                 if max_distance != -1:
                     e.target_floor = floor_num
+
+
+# TODO - remove BetterMovingAlgorithm
+@check_contracts
+class BetterMovingAlgorithm(MovingAlgorithm):
+    """A moving algorithm that causes every elevator to move between the bottom and top floors.
+
+    Algorithm description:
+
+    - For each elevator:
+        - If the elevator's current floor is 1, the target_floor is set to the max_floor.
+        - If the elevator's current floor is max_floor, the target_floor is set to 1.
+        - In all other cases, the elevator's target_floor is unchanged.
+    - This algorithm behaves the same way for all elevators.
+    - This algorithm IGNORES the passengers on the elevators, and the people
+      who are waiting for an elevator.
+    """
+
+    def update_target_floors(self,
+                             elevators: list[Elevator],
+                             waiting: dict[int, list[Person]],
+                             max_floor: int) -> None:
+        """Updates elevator target floors.
+
+        The parameters are:
+        - elevators: a list of the system's elevators
+        - waiting: a dictionary mapping floor number to the list of people waiting on that floor
+        - max_floor: the maximum floor number in the simulation
+
+        Preconditions:
+        - elevators, waiting, and max_floor are from the same simulation run
+        """
+
+        for e in elevators:
+            # Case 1
+            if e.passengers:
+                if e.passengers[0].target < e.current_floor:
+                    e.target_floor = min(p.target for p in e.passengers)
+                else:
+                    e.target_floor = max(p.target for p in e.passengers)
+            # Case 2
+            elif e.current_floor == e.target_floor:
+                max_priority = -1
+                floor_num = max_floor + 1
+                person = None
+
+                # Cannot assume waiting is sorted by key value
+                for i, j in waiting.items():
+                    if not j:
+                        continue
+
+                    next_person = None
+                    for next_person in j:
+                        if not next_person.marked:
+                            break
+
+                    if not next_person:
+                        continue
+
+                    prior = self.passenger_priority(e, next_person)
+                    if prior > max_priority:
+                        max_priority = prior
+                        floor_num = next_person.start
+                        person = next_person
+
+                    # temp_dist = abs(e.current_floor - i)
+                    #
+                    # if temp_dist > max_distance:
+                    #     floor_num = i
+                    #     max_distance = temp_dist
+                    # elif temp_dist == max_distance:
+                    #     floor_num = min(floor_num, i)
+
+                if max_priority != -1:
+                    e.target_floor = floor_num
+                    person.marked = True
+
+    def passenger_priority(self, elevator, person):
+        floor_dist = abs(elevator.current_floor - person.start)
+        anger_level = person.get_anger_level()
+
+        return floor_dist + anger_level * 2
+
 
 
 if __name__ == '__main__':
