@@ -265,8 +265,7 @@ class Simulation:
             'total_people': self.total_people,
             'people_completed': len(self.waiting_times),
             'max_time': max(self.waiting_times) if self.waiting_times else -1,
-            'avg_time': int(sum(self.waiting_times) / len(self.waiting_times)),
-            "final_floors": self.final_floors
+            'avg_time': int(sum(self.waiting_times) / max([len(self.waiting_times), 1])),
         }
 
 
