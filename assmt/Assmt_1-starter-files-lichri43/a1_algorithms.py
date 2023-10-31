@@ -316,17 +316,20 @@ class FurthestFloor(MovingAlgorithm):
         for e in elevators:
             # Case 1
             if e.passengers:
+                e.target_floor = sorted(e.passengers,
+                                        key=lambda x: (-abs(x.target - e.current_floor),
+                                                       x.target))[0].target
                 # We just accepted passengers and are trying to determine which direction to go to
-                if e.current_floor == e.target_floor:
-                    # Getting around 4 max nested blocks
-                    e.target_floor = sorted(e.passengers,
-                                            key=lambda x: (-abs(x.target - e.current_floor),
-                                                           x.target))[0].target
-                else:  # We are already heading in a direction and are just updating to max dir
-                    if e.passengers[0].target < e.current_floor:
-                        e.target_floor = min(p.target for p in e.passengers)
-                    else:
-                        e.target_floor = max(p.target for p in e.passengers)
+                # if e.current_floor == e.target_floor:
+                #     # Getting around 4 max nested blocks
+                #     e.target_floor = sorted(e.passengers,
+                #                             key=lambda x: (-abs(x.target - e.current_floor),
+                #                                            x.target))[0].target
+                # else:  # We are already heading in a direction and are just updating to max dir
+                #     if e.passengers[0].target < e.current_floor:
+                #         e.target_floor = min(p.target for p in e.passengers)
+                #     else:
+                #         e.target_floor = max(p.target for p in e.passengers)
             # Case 2, elevator is idle and has no passengers
             elif e.current_floor == e.target_floor:
                 max_distance = -1

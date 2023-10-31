@@ -72,7 +72,6 @@ class Simulation:
     num_rounds: int
     total_people: int
     waiting_times: list[int]
-    final_floors: dict[int, list[Person]]
 
     def __init__(self,
                  config: dict[str, Any]) -> None:
@@ -100,7 +99,6 @@ class Simulation:
         self.num_rounds = 0
         self.total_people = 0
         self.waiting_times = []
-        self.final_floors = {i + 1: [] for i in range(self.num_floors)}
 
         # Initialize the visualizer (this is done for you).
         # Note that this should be executed *after* the other attributes
@@ -167,9 +165,7 @@ class Simulation:
                 if e.passengers[i].target == e.current_floor:
                     p = e.passengers.pop(i)
                     self.visualizer.show_disembarking(p, e)
-
                     self.waiting_times.append(p.wait_time)
-                    self.final_floors[p.target].append(p)
 
     def generate_arrivals(self, round_num: int) -> None:
         """Generate and visualize new arrivals."""
@@ -265,7 +261,8 @@ class Simulation:
             'total_people': self.total_people,
             'people_completed': len(self.waiting_times),
             'max_time': max(self.waiting_times) if self.waiting_times else -1,
-            'avg_time': int(sum(self.waiting_times) / max([len(self.waiting_times), 1])),
+            'avg_time': int(sum(self.waiting_times) / len(self.waiting_times))
+            if self.waiting_times else -1,
         }
 
 
