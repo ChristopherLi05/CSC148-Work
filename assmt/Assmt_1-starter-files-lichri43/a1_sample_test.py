@@ -239,6 +239,53 @@ def test_furthest_floor_case_1_multiple_people_diff_dist() -> None:
     assert e.target_floor == 5
 
 
+def sign(num: int | float) -> int:
+    """
+    Returns the sign of the number: -1 if num < 0, 0 if num = 0, 1 if num > 0
+    """
+    if num < 0:
+        return -1
+    elif num > 0:
+        return 1
+    else:
+        return 0
+
+
+def test_furthest_floor_infinite_loop() -> None:
+    """Checks when 2 people board elevator at the same time but have different directions"""
+    moving_algorithm = FurthestFloor()
+    max_floor = 6
+    waiting = {i: [] for i in range(1, max_floor + 1)}
+
+    e = Elevator(5)
+    e.current_floor = 2
+    e.target_floor = 2
+
+    person1 = Person(2, 5)
+    person2 = Person(2, 1)
+
+    e.passengers.append(person1)
+    e.passengers.append(person2)
+
+    moving_algorithm.update_target_floors([e], waiting, max_floor)
+    e.current_floor += sign(e.target_floor - e.current_floor)
+
+    assert e.target_floor == 5
+    assert e.current_floor == 3
+
+    moving_algorithm.update_target_floors([e], waiting, max_floor)
+    e.current_floor += sign(e.target_floor - e.current_floor)
+
+    assert e.target_floor == 1
+    assert e.current_floor == 2
+
+    moving_algorithm.update_target_floors([e], waiting, max_floor)
+    e.current_floor += sign(e.target_floor - e.current_floor)
+
+    assert e.target_floor == 5
+    assert e.current_floor == 3
+
+
 ###############################################################################
 # Helpers
 ###############################################################################

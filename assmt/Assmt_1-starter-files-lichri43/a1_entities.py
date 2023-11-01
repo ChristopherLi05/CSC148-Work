@@ -51,8 +51,8 @@ class Person(PersonSprite):
         A person's waiting time always starts at 0.
 
         Preconditions:
-        - start >= 0
-        - target >= 0
+        - start >= 1
+        - target >= 1
 
         NOTE: Initialize all Person instance attributes BEFORE calling PersonSprite.__init__.
         This is because the PersonSprite initializer will call get_anger_level, which
