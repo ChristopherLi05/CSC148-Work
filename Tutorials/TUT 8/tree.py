@@ -261,6 +261,39 @@ class Tree:
             else:
                 random.choice(self._subtrees).insert(item)
 
+    def insert_child(self, item, parent):
+        """
+        >>> t = Tree(5, [])
+        >>> len(t)
+        1
+        >>> t.insert_child(3, 5)
+        True
+        >>> len(t)
+        2
+        >>> t.insert_child(3, 4)
+        False
+        >>> len(t)
+        2
+        >>> t.insert_child(1, 3)
+        True
+        >>> t._subtrees.append(Tree(1, []))
+        >>> t._subtrees[0]._subtrees.append(Tree(1, []))
+        >>> t.insert_child(2, 1)
+        True
+        >>> t._subtrees[1]._subtrees
+        []
+        >>> len(t)
+        6
+        """
+
+        if self.is_empty():
+            return False
+        elif self._root == parent:
+            self._subtrees.append(Tree(item, []))
+            return True
+        else:
+            return any(i.insert_child(item, parent) for i in self._subtrees)
+
 
 if __name__ == '__main__':
     import doctest
