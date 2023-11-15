@@ -70,14 +70,16 @@ def test_simple_prefix_tree_autocomplete() -> None:
     # order. You can (and should) sort the tuples yourself inside
     # SimplePrefixTree.autocomplete.
 
-    assert t.autocomplete([]) == [('can', 12.0), ('doggy', 5.0), ('dog', 4.0), ('car', 3.0), ('cat', 2.0), ('cart', 1.0)]
+    assert t.autocomplete([]) == [('can', 12.0), ('doggy', 5.0), ('dog', 4.0), ('car', 3.0),
+                                  ('cat', 2.0), ('cart', 1.0)]
     assert t.autocomplete(["c"]) == [('can', 12.0), ('car', 3.0), ('cat', 2.0), ('cart', 1.0)]
 
     # But keep in mind that the greedy algorithm here does not necessarily
     # return the highest-weight values!! In this case, the ['c'] subtree
     # is recursed on first.
     assert t.autocomplete([], 1) == [('can', 12.0)]
-    assert t.autocomplete([], 5) == [('can', 12.0), ('doggy', 5.0), ('car', 3.0), ('cat', 2.0), ('cart', 1.0)]
+    assert t.autocomplete([], 5) == [('can', 12.0), ('doggy', 5.0), ('car', 3.0), ('cat', 2.0),
+                                     ('cart', 1.0)]
     assert t.autocomplete(["c"], 3) == [('can', 12.0), ('car', 3.0), ('cart', 1.0)]
 
 
@@ -178,6 +180,35 @@ def test_compressed_prefix_tree_structure() -> None:
 
     assert right.root == ['d', 'o', 'g']
     assert right.weight == 4.0
+
+
+def test_compressed_prefix_tree_structure_two() -> None:
+    """This is a test for the correct structure of a compressed prefix tree.
+
+    NOTE: This test should pass even if you insert these values in a different
+    order. This is a good thing to try out.
+    """
+    t = CompressedPrefixTree()
+    t.insert('cart', 5.0, ['c', 'a', 'r', 't'])
+    t.insert('cat', 2.0, ['c', 'a', 't'])
+    t.insert('car', 3.0, ['c', 'a', 'r'])
+
+    print(t)
+
+    # t has 3 values (note that __len__ only counts the values, which are
+    # stored at the *leaves* of the tree).
+    assert len(t) == 3
+
+    # t has a total weight of 9.0
+    assert t.weight == 2.0 + 3.0 + 5.0
+
+    # t has two subtrees, and order matters (because of weights).
+    assert len(t.subtrees) == 1
+    left = t.subtrees[0]
+
+    # But note that the prefix values are different than for a SimplePrefixTree!
+    assert left.root == ['c', 'a']
+    assert left.weight == 10.0
 
 
 if __name__ == '__main__':
