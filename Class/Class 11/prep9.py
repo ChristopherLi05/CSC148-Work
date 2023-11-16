@@ -334,16 +334,17 @@ class BinarySearchTree:
             return self._right.maximum_node()
 
     def insert(self, value):
-        if self.is_empty():
-            self._root = value
-            self._left = BinarySearchTree(None)
-            self._right = BinarySearchTree(None)
-        elif value == self._root:
-            self._right.insert(value)
-        elif value < self._root:
-            self._left.insert(value)
-        elif value > self._root:
-            self._right.insert(value)
+        ...
+        # if self.is_empty():
+        #     self._root = value
+        #     self._left = BinarySearchTree(None)
+        #     self._right = BinarySearchTree(None)
+        # elif value == self._root:
+        #     self._right.insert(value)
+        # elif value < self._root:
+        #     self._left.insert(value)
+        # elif value > self._root:
+        #     self._right.insert(value)
 
 
 if __name__ == '__main__':
