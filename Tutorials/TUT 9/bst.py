@@ -381,6 +381,29 @@ class BinarySearchTree:
         else:
             return self._left.maximum_node()
 
+    def closest(self, item: int) -> int | None:
+        """
+        >>> bst = BinarySearchTree(10)
+        >>> bst.insert(3)
+        >>> bst.insert(2)
+        >>> bst.insert(7)
+        >>> bst.insert(32)
+        >>> bst.insert(27)
+        >>> bst.insert(81)
+        >>> bst.insert(49)
+        >>> bst.insert(99)
+        >>> bst.closest(20)
+        27
+        """
+        if self._root is None:
+            return None
+        if self._root == item:
+            return self._root
+        else:
+            return min([self._root,
+                        b if (b := [self._left, self._right][self._root < item].closest(
+                            item)) else self._root], key=lambda x: (abs(x - item), x))
+
 
 if __name__ == '__main__':
     import doctest
