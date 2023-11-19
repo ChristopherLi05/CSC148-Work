@@ -190,8 +190,9 @@ class SimplePrefixTree(Autocompleter):
             1) not in this Autocompleter, or
             2) was previously inserted with the SAME prefix sequence
         """
-        # TODO - see if we need a protection against people calling insert on leaf nodes
-        if prefix == self.root:
+        if self.is_leaf():
+            return
+        elif prefix == self.root:
             for i in self.subtrees:
                 if i.root == value:
                     # Weight addition
@@ -331,7 +332,6 @@ class CompressedPrefixTree(SimplePrefixTree):
             1) not in this Autocompleter, or
             2) was previously inserted with the SAME prefix sequence
         """
-        # TODO - check if prefix is []
         if self.root == prefix:  # Prefix is the same
             for i in self.subtrees:
                 if i.root == value:

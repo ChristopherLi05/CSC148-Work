@@ -78,8 +78,6 @@ class LetterAutocompleteEngine:
         allowed = "abcdefghijklmnopqrstuvwxyz1234567890 "
         with open(config['file'], encoding='utf8') as f:
             for line in f:
-                # TODO - make sure this is right, see if we can use regex??
-                # TODO - check if "  abc   " converts to "abc"
                 sanitized = ("".join([i for i in line.lower() if i in allowed])).strip()
                 if sanitized:
                     self.autocompleter.insert(sanitized, 1.0, list(sanitized))
@@ -167,7 +165,6 @@ class SentenceAutocompleteEngine:
         with open(config['file'], encoding='utf8') as csvfile:
             reader = csv.reader(csvfile)
             for line in reader:
-                # TODO - check if "  abc   " converts to "abc"
                 sentence = ("".join([i for i in line[0].lower() if i in allowed])).strip()
                 weight = float(line[1])
 
@@ -264,7 +261,6 @@ class MelodyAutocompleteEngine:
                 notes = [(int(i), int(j)) for i, j in zip(line[::2], line[1::2])]
                 interval_seq = [j[0] - i[0] for i, j in zip(notes, notes[1:])]
 
-                # TODO - check if we add empty lines
                 melody = Melody(song_name, notes)
                 self.autocompleter.insert(melody, 1.0, interval_seq)
 
