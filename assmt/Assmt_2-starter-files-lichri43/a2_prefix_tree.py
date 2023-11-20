@@ -190,9 +190,7 @@ class SimplePrefixTree(Autocompleter):
             1) not in this Autocompleter, or
             2) was previously inserted with the SAME prefix sequence
         """
-        if self.is_leaf():
-            return
-        elif prefix == self.root:
+        if prefix == self.root:
             for i in self.subtrees:
                 if i.root == value:
                     # Weight addition
@@ -213,7 +211,7 @@ class SimplePrefixTree(Autocompleter):
                     break
             else:
                 pt = SimplePrefixTree()
-                pt.root, pt.weight = prefix_to_find, weight
+                pt.root = prefix_to_find
                 self.subtrees.append(pt)
 
                 pt.insert(value, weight, prefix)
