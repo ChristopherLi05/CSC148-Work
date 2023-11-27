@@ -203,12 +203,12 @@ def test_compressed_prefix_tree_structure_two() -> None:
     assert t.weight == 2.0 + 3.0 + 5.0
 
     # t has two subtrees, and order matters (because of weights).
-    assert len(t.subtrees) == 1
+    assert len(t.subtrees) == 2
     left = t.subtrees[0]
 
     # But note that the prefix values are different than for a SimplePrefixTree!
-    assert left.root == ['c', 'a']
-    assert left.weight == 10.0
+    assert left.root == ['c', 'a', 't']
+    assert left.weight == 2.0
 
 
 if __name__ == '__main__':

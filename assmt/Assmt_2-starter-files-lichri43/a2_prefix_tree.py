@@ -123,7 +123,7 @@ class SimplePrefixTree(Autocompleter):
         """Initialize an empty simple prefix tree.
         """
         self.root = []
-        self.weight = 0
+        self.weight = 0.0
         self.subtrees = []
 
     def is_empty(self) -> bool:
@@ -192,7 +192,7 @@ class SimplePrefixTree(Autocompleter):
         """
         if prefix == self.root:
             for i in self.subtrees:
-                if i.root == value:
+                if i.is_leaf() and i.root == value:
                     # Weight addition
                     i.weight += weight
                     break
@@ -237,8 +237,6 @@ class SimplePrefixTree(Autocompleter):
             node = sorted_nodes.pop()
 
             if node.is_leaf():
-                # We don't want any leaf nodes to get to the elif
-
                 # Cuts our root to the length of the prefix
                 #  - longer roots are fine but shorter roots are not
                 if self.root[:len(prefix)] == prefix:
@@ -264,7 +262,8 @@ class SimplePrefixTree(Autocompleter):
         """
         if prefix == self.root:
             self.subtrees = []
-            self.weight = 0
+            self.weight = 0.0
+            self.root = []
         else:
             # Creating a new list so we can modify self.subtrees without doing weird stuff
             for node in list(self.subtrees):
@@ -289,12 +288,11 @@ class SimplePrefixTree(Autocompleter):
                     # Difference is removed weight
                     self.weight -= (old_weight - new_weight)
 
-    def check_weight(self) -> bool:
-        """Checks if all the weights are correct"""
-        if self.is_leaf():
-            return True
-        return self.weight == sum([i.weight for i in self.subtrees]) and all(
-            i.check_weight() for i in self.subtrees)
+            # Removing Root Node on Compressed Tree
+            # This method should never be called on a leaf node
+            if not self.subtrees:
+                self.root = []
+                self.weight = 0.0
 
 
 ################################################################################
@@ -330,9 +328,46 @@ class CompressedPrefixTree(SimplePrefixTree):
             1) not in this Autocompleter, or
             2) was previously inserted with the SAME prefix sequence
         """
+        if not self.root and not self.subtrees:
+            # The tree is empty so we can just put the value in
+            self.root = prefix
+            self.weight += weight
+
+            leaf = CompressedPrefixTree()
+            leaf.root, leaf.weight = value, weight
+            self.subtrees.append(leaf)
+        elif not self.root:
+            # The tree is not empty but the root is [], we can just call _insert
+
+            self._insert(value, weight, prefix)
+        else:
+            # I coded _insert to think that the root node is []
+            # This is not always the case with CompressedPrefixTree, so this spoofs it
+
+            temp_self = CompressedPrefixTree()
+            temp_self.root, temp_self.weight, temp_self.subtrees = \
+                self.root, self.weight, self.subtrees
+
+            self.root, self.subtrees = [], [temp_self]
+
+            self._insert(value, weight, prefix)
+
+            # If we didn't add a new child node then we can compress
+            if len(self.subtrees) == 1:
+                self.root, self.weight, self.subtrees = \
+                    self.subtrees[0].root, self.subtrees[0].weight, self.subtrees[0].subtrees
+
+    def _insert(self, value: Any, weight: float, prefix: list) -> None:
+        """
+        Internal method to insert the given value into this Autocompleter.
+
+        This method assumes we started at the root and that root = []
+
+        This has the same preconditions as CompressedPrefixTree.insert
+        """
         if self.root == prefix:  # Prefix is the same
             for i in self.subtrees:
-                if i.root == value:
+                if i.is_leaf() and i.root == value:
                     # Weight addition
                     i.weight += weight
                     break
@@ -343,8 +378,8 @@ class CompressedPrefixTree(SimplePrefixTree):
 
             # Weight addition
             self.weight += weight
-        elif node := self._find_prefix_exists(prefix):  # We have a prefix that prefixes the prefix
-            node.insert(value, weight, prefix)
+        elif node := self._find_prefix_exists(prefix):  # We have a node that prefixes the prefix
+            node._insert(value, weight, prefix)
 
             # Weight addition
             self.weight += weight
@@ -360,7 +395,7 @@ class CompressedPrefixTree(SimplePrefixTree):
             self.subtrees.append(st_p)
 
             # Being lazy, fallback to else case
-            st_p.insert(value, weight, prefix)
+            st_p._insert(value, weight, prefix)
 
             # Weight addition
             self.weight += weight

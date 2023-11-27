@@ -23,6 +23,15 @@ from a2_melody import Melody
 from a2_prefix_tree import Autocompleter, SimplePrefixTree, CompressedPrefixTree
 
 
+def sanitize_inpt(inpt: str) -> str:
+    """
+    Sanitizes the given inputted string by first converting to lower case, then removing any
+    non-alphanumeric/space characters and finally strips the string
+    """
+    allowed = "abcdefghijklmnopqrstuvwxyz1234567890 "
+    return ("".join([i for i in inpt.lower() if i in allowed])).strip()
+
+
 ################################################################################
 # Text-based Autocomplete Engines (Task 4)
 ################################################################################
@@ -75,10 +84,9 @@ class LetterAutocompleteEngine:
         # We've opened the file for you here. You should iterate over the
         # lines of the file and process them according to the description in
         # this method's docstring.
-        allowed = "abcdefghijklmnopqrstuvwxyz1234567890 "
         with open(config['file'], encoding='utf8') as f:
             for line in f:
-                sanitized = ("".join([i for i in line.lower() if i in allowed])).strip()
+                sanitized = sanitize_inpt(line)
                 if sanitized:
                     self.autocompleter.insert(sanitized, 1.0, list(sanitized))
 
@@ -161,15 +169,14 @@ class SentenceAutocompleteEngine:
         # We've opened the file for you here. You should iterate over the
         # lines of the file and process them according to the description in
         # this method's docstring.
-        allowed = "abcdefghijklmnopqrstuvwxyz1234567890 "
         with open(config['file'], encoding='utf8') as csvfile:
             reader = csv.reader(csvfile)
             for line in reader:
-                sentence = ("".join([i for i in line[0].lower() if i in allowed])).strip()
+                sentence = sanitize_inpt(line[0])
                 weight = float(line[1])
 
                 if sentence:
-                    self.autocompleter.insert(sentence, weight, sentence.split(" "))
+                    self.autocompleter.insert(sentence, weight, sentence.split())
 
     def autocomplete(self, prefix: str, limit: int | None = None) -> list[tuple[str, float]]:
         """Return up to <limit> matches for the given prefix string.
@@ -186,7 +193,7 @@ class SentenceAutocompleteEngine:
         - limit is None or limit > 0
         - <prefix> is a sanitized string
         """
-        return self.autocompleter.autocomplete(prefix.split(" "), limit)
+        return self.autocompleter.autocomplete(prefix.split(), limit)
 
     def remove(self, prefix: str) -> None:
         """Remove all strings that match the given prefix.
@@ -197,7 +204,7 @@ class SentenceAutocompleteEngine:
         Preconditions:
         - <prefix> is a sanitized string
         """
-        self.autocompleter.remove(prefix.split(" "))
+        self.autocompleter.remove(prefix.split())
 
 
 ################################################################################
@@ -361,7 +368,7 @@ if __name__ == '__main__':
 
     print(example_letter_autocomplete())
     print(example_sentence_autocomplete())
-    print(example_melody_autocomplete(play=False))
+    print(example_melody_autocomplete())
 
     # Uncomment the python_ta lines below and run this module.
     # This is different that just running doctests! To run this file in PyCharm,
@@ -373,15 +380,17 @@ if __name__ == '__main__':
     # you see "None!" under both "Code Errors" and "Style and Convention Errors".
     # TIP: To quickly uncomment lines in PyCharm, select the lines below and press
     # "Ctrl + /" or "⌘ + /".
-    # import python_ta
-    # python_ta.check_all(
-    #     config={
-    #         'allowed-io': [
-    #             'LetterAutocompleteEngine.__init__',
-    #             'SentenceAutocompleteEngine.__init__',
-    #             'MelodyAutocompleteEngine.__init__'
-    #         ],
-    #         'extra-imports': ['csv', 'time', 'sys', 'a2_prefix_tree', 'a2_melody'],
-    #         'max-line-length': 100,
-    #     }
-    # )
+    import python_ta
+
+    python_ta.check_all(
+        config={
+            'allowed-io': [
+                'LetterAutocompleteEngine.__init__',
+                'SentenceAutocompleteEngine.__init__',
+                'MelodyAutocompleteEngine.__init__'
+            ],
+            'extra-imports': ['csv', 'time', 'sys', 'a2_prefix_tree', 'a2_melody'],
+            'max-line-length': 100,
+            'output-format': 'python_ta.reporters.PlainReporter'
+        }
+    )
